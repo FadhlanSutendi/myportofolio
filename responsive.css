@@ -1,0 +1,8 @@
+@media screen and (max-width: 450px){
+    .mabar img {
+        width: 350px;
+    }
+    .mabar h1 {
+        margin-left: 40%;
+    }
+}

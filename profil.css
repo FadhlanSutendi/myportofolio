@@ -1,0 +1,306 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+   background-color: #0A0545;
+   color: white;
+}
+
+.wlee {
+    border-bottom: 5px solid white;
+}
+
+.hayuk {
+    border-bottom: 5px solid white;
+}
+
+.gass {
+    border-bottom: 5px solid white;
+}
+
+.header-logo{
+    padding-top: 20px;
+    font-size: 40px;
+    padding: 15px;
+    color: white;
+}
+
+li{
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 32px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+header{
+    background-color: hsl(245, 86%, 15%);
+    height: 90px;
+    color:white;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.container{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.well {
+    display: flex;
+    padding: 0px 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.well a{
+    transition: all 0.3s ease-in-out;
+}
+
+.well a:hover{
+    font-size: 20px;
+    background-color: rgb(141, 191, 209);
+    padding: 5px 7px;
+    border-radius: 15px;
+}
+
+.mabar h1 {
+    padding-top: 320px;
+    color: white;
+    margin: 0 10%;
+    transition: all 0.3s ease-in-out;
+}
+
+.mabar h1:hover{
+    font-size: 35px;
+}
+
+.mabar img{
+      width: 380px;
+      height: 350px;
+      float: right;
+      margin-right: 170px;
+      margin-top: 250px;
+      
+}
+
+.mabar a{
+    background-color: rgb(101, 12, 191);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+.mabar h1 span {
+    background: linear-gradient(270deg, #4175e4,#ea00c3, #0755ff,#ff00dd);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.header-logo span{
+    background: linear-gradient(270deg, #4175e4,#ea00c3, #0755ff,#ff00dd);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.smp1 {
+    margin-top: 20%;
+    font-size: 100%;
+    margin-left: 45%;
+}
+
+.smp1 img{
+    margin-top: -280px;
+    margin-left: -550px;
+}
+
+.sip {
+    color: rgb(255, 253, 253);
+    margin: 2% 0px;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.sip h2 {
+    color: white;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.sip h2{
+    padding-left: 35%;
+    padding-bottom: 25px;
+}
+
+.sip h2:hover{
+    font-size: 40px;
+}
+
+.sip h3 {
+    color: white;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.sip h3:hover{
+    font-size: 30px;
+}
+
+.sosial-links {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    right: 20px;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.sosial-links a{
+    color: white;
+    font-size: 20px;
+    transform: 0.4s;
+}
+
+.sosial-links a:hover{
+    transform: scale(1.5);
+}
+
+.sosial-links span{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transform: rotate(90deg);
+    margin-bottom: 40px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(126, 125, 125);
+    transition: 0.3;
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 20%;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+  
+.naon {
+    padding: 2px 16px;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgb(126, 125, 125);
+    transition: 0.3;
+    width: 20%;
+    margin-left: 100px;
+    margin-top: 20%;
+}
+  
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+  
+.naon1 {
+    padding: 2px 16px;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgb(126, 125, 125);
+    transition: 0.3;
+    width: 20%;
+    margin-left: 100px;
+    margin-top: 20%;
+}
+  
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+  
+.naon2 {
+    padding: 2px 16px;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgb(126, 125, 125);
+    transition: 0.3;
+    width: 20%;
+    margin-left: 100px;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+  
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+  
+.naon3 {
+    padding: 2px 16px;
+}
+
+.container-sosmed {
+    padding-top: 150px
+}
