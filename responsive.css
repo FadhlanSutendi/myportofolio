@@ -1,8 +1,72 @@
-@media screen and (max-width: 450px){
+@media screen and (max-width: 760px) {
     .mabar img {
         width: 350px;
     }
+
     .mabar h1 {
         margin-left: 40%;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .card {
+        height: 150px;
+        width: 150px;
+        margin-left: 150px;
+    }
+
+    .card1 {
+        height: 150px;
+        width: 150px;
+        margin-left: 150px;
+    }
+
+    .card2 {
+        height: 150px;
+        width: 150px;
+        margin-left: 150px;
+    }
+
+    .card3 {
+        height: 150px;
+        width: 150px;
+        margin-left: 150px;
+    }
+
+    .mabar img {
+        margin-right: 50px;
+    }
+
+    .mabar h1 {
+        text-align: center;
+        margin-left: -1px;
+        width: 100%;
+    }
+
+    .mabar a {
+        margin-left: 150px;
+    }
+
+    .smp1 {
+        justify-content: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .foto1 {
+        margin-left: 320px;
+    }
+
+    .text1 {
+        text-align: center;
+        width: 100%;
+        margin-left: -80px;
+    }
+
+    .header-list li {
+        width: 50%;
+        padding-left: 1px;
     }
 }
