@@ -1,4 +1,10 @@
 @media screen and (max-width: 760px) {
+    main {
+        transform: translateX(10%);
+    }
+    .sosial-links{
+        transform: translateX(70px) translateY(-100px);
+    }
     .mabar img {
         width: 350px;
     }
